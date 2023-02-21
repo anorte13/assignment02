@@ -7,5 +7,5 @@ if (num1 > num2) {
 } else if (num2 === num1) {
   document.write("<p>The numbers were equal</p>");
 } else {
-  document.write("Pleas enter valid inputs");
+  document.write("No valid inputs were given");
 }

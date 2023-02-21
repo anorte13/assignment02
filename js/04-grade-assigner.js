@@ -10,7 +10,7 @@ if (number > 100 || number < 1) {
     console.log("You received a B");
   } else if (number >= 90 && number < 100) {
     console.log("You received an A");
-  } else {
+  } else if (number < 60) {
     console.log("You received an F");
   }
 }
